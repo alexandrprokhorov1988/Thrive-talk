@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Route} from 'react-router-dom';
 import Header from '../Header/Header';
+import Info from '../Info/Info';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Route exact path="*">
         <Header/>
         <main className="content">
-
+          <Info/>
         </main>
       </Route>
     </div>

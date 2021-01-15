@@ -7,6 +7,7 @@ function Header() {
 
   return (
     <header className="header">
+      <div className="header__container">
       <a href="/" className="header__logo">Thrivetalk</a>
       <nav className="header__nav">
         <ul className="header__nav-list">
@@ -37,6 +38,7 @@ function Header() {
       <div className="header__button-container">
         <button className="header__button header__button_type_title header__button_position_left">WHO AM I</button>
         <button className="header__button header__button_type_title header__button_position_right">WHAT DO I DO</button>
+      </div>
       </div>
     </header>
   );

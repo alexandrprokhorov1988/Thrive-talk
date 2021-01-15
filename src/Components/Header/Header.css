@@ -1,5 +1,4 @@
 .header {
-  display: grid;
   margin: 0 auto;
   max-width: 1440px;
   width: 100%;
@@ -8,15 +7,19 @@
   background-size: contain;
   background-position: right bottom 15px;
   box-sizing: border-box;
+  padding-top: 27px;
+  padding-bottom: 77px;
+}
+
+.header__container {
+  display: grid;
+  align-items: center;
+  transition: ease all 1s;
   grid-template-rows: repeat(5, auto);
   grid-template-columns: repeat(3, auto);
   grid-template-areas: "logo nav button-top" "logo-title logo-title ." "title title ." "text text ." "button-container button-container .";
-  padding-left: 8.5%;
-  padding-right: 8.5%;
-  padding-top: 27px;
-  padding-bottom: 77px;
-  align-items: center;
-  transition: ease all 1s;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 
 .header__logo {
@@ -161,13 +164,16 @@
   .header {
     background-color: rgba(255, 255, 255, .3);
     background-blend-mode: color;
-    background-position: 50%;
     transition: ease all 1s;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
+    background: none;
+  }
+
+  .header__container {
     grid-template-rows: repeat(8, auto);
     grid-template-columns: auto;
     grid-template-areas: "logo" "nav" "button-top" "logo-title" "title" "text" "button-container";
@@ -211,6 +217,13 @@
 
   .header__text {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__container {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
