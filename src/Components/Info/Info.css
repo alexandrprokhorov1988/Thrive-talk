@@ -42,17 +42,22 @@
   font-size: 28px;
 }
 
+.info__img-hider {
+  overflow: hidden;
+}
+
 .info__img {
   width: 100%;
   height: 100%;
-  background-image: url(../../images/info-one.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
   max-width: 525px;
   grid-area: img;
   object-fit: cover;
   object-position: left;
+  transition: transform ease 1s;
+}
+
+.info__img:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {
@@ -69,5 +74,16 @@
 
   .info__img {
     max-width: 100%;
+  }
+
+  .info__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .info__container {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }

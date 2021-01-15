@@ -15,8 +15,9 @@ function Info() {
           you would get in office from anywhere you can access your laptop or mobile phone. Become your best self with
           ThriveTalk. Start therapy now with a licensed therapist!</p>
       </div>
-      <img className="info__img" src={imgOne} alt="Картинка"/>
-      {/*<div className="info__img"/>*/}
+      <div className="info__img-hider">
+        <img className="info__img" src={imgOne} alt="Картинка"/>
+      </div>
     </section>
   );
 }
