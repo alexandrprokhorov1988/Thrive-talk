@@ -6,6 +6,8 @@ import Info from '../Info/Info';
 import About from '../About/About';
 import InfoSecond from '../InfoSecond/InfoSecond';
 import InfoThird from '../InfoThird/InfoThird';
+import Advice from '../Advice/Advice';
+import TrainingAdvice from '../TrainingAdvice/TrainingAdvice';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <main className="content">
           <Info/>
           <About/>
+          <TrainingAdvice/>
+          <Advice/>
           <InfoSecond/>
           <InfoThird/>
         </main>
