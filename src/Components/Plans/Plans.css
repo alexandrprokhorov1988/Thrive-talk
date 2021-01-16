@@ -1,0 +1,43 @@
+.plans {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.plans__card {
+  max-width: 480px;
+  padding: 55px 77px 37px 105px;
+  box-sizing: border-box;
+}
+
+.plans__title {
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356F;
+  padding: 0;
+  margin: 0;
+}
+
+.plans__text {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+  margin: 0;
+  padding: 0;
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 425px) {
+  .plans {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .plans__card {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+}

@@ -8,6 +8,9 @@ import InfoSecond from '../InfoSecond/InfoSecond';
 import InfoThird from '../InfoThird/InfoThird';
 import Advice from '../Advice/Advice';
 import TrainingAdvice from '../TrainingAdvice/TrainingAdvice';
+import Plans from '../Plans/Plans';
+import Footer from '../Footer/Footer';
+import Contacts from '../Contacts/Contacts';
 
 function App() {
   return (
@@ -19,8 +22,11 @@ function App() {
           <About/>
           <TrainingAdvice/>
           <Advice/>
+          <Plans/>
           <InfoSecond/>
           <InfoThird/>
+          <Contacts/>
+          <Footer/>
         </main>
       </Route>
     </div>

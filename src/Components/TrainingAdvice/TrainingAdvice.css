@@ -76,3 +76,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .training-advice__card{
+    padding-left: 104px;
+  }
+}
