@@ -9,7 +9,7 @@
 * [Ссылка на макет в Figma](https://www.figma.com/file/aHd2rHMrnzDXhowLuIQjIyVQ/ThriveTalk-Landing-Page?node-id=1%3A2)
 
 #### Инструкция
-* [Ссылка на проект]()
+* [Ссылка на проект](https://alexandrprokhorov1988.github.io/Thrive-talk/)
 
 
 #### Технологии
