@@ -1,0 +1,36 @@
+.info-second_type_info-third {
+  background-color: #22356F;
+}
+
+.info-second__text_type_info_third {
+  color: #FFFFFF;
+}
+
+.info-third__title {
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  padding-top: 230px;
+}
+
+.info-second__text-main_type_info-third {
+  padding-top: 75px;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+}
+
+.info-second__button_type_info-third {
+  margin-top: 100px;
+  color: #62D0DF;
+  background-color: #22356F;
+}
+
+.info-second__button_type_info-third:hover {
+  color: #FFFFFF;
+  background: #F9B640;
+}

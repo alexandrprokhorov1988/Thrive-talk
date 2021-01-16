@@ -1,4 +1,4 @@
-# Верстка по макету Figma 17
+# Верстка по макету Thrive-talk
 
 ### Обзор
 * Описание
@@ -6,10 +6,10 @@
 * Технологии
 
 #### Описание
-* [Ссылка на макет в Figma]()
+* [Ссылка на макет в Figma](https://www.figma.com/file/aHd2rHMrnzDXhowLuIQjIyVQ/ThriveTalk-Landing-Page?node-id=1%3A2)
 
 #### Инструкция
-* [Ссылка на проект]()
+* [Ссылка на проект](https://alexandrprokhorov1988.github.io/Thrive-talk/)
 
 
 #### Технологии
@@ -19,3 +19,5 @@
 * Grid
 * Flex 
 * React
+
+* [Оптимизация картинок jpg, png...](https://tinypng.com/)

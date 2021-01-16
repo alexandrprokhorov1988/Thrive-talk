@@ -1,0 +1,129 @@
+.contacts {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(300px, 570px) repeat(3, 1fr);
+  box-sizing: border-box;
+  grid-template-areas: "img one two three";
+}
+
+.contacts__img-hider {
+  overflow: hidden;
+  grid-area: img;
+}
+
+.contacts__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  max-width: 570px;
+  transition: transform ease 1s;
+}
+
+.contacts__img:hover {
+  transform: scale(1.05);
+}
+
+.contacts__nav {
+  padding-top: 98px;
+  padding-left: 68px;
+}
+
+.contacts__nav_type_one {
+  grid-area: one;
+}
+
+.contacts__nav_type_two {
+  grid-area: two;
+}
+
+.contacts__nav_type_three {
+  grid-area: three;
+}
+
+.contacts__nav:last-of-type {
+  padding-right: 40px;
+}
+
+.contacts__title {
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #22356F;
+  padding: 0;
+  margin: 0;
+}
+
+.contacts__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.contacts__text {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+  padding: 0;
+  margin: 0;
+}
+
+.contacts__text_type_bottom {
+  padding-top: 25px;
+}
+
+.contacts__link {
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  text-decoration: none;
+  opacity: 1;
+  color: #62D0DF;
+}
+
+.contacts__link:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1280px) {
+  .contacts {
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+    grid-template-areas: "img img img" "one two three";
+    padding-bottom: 50px;
+  }
+
+  .contacts__nav:last-of-type {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "img" "one" "two" "three";
+    padding-bottom: 50px;
+  }
+
+  .contacts__nav {
+    padding-left: 0;
+  }
+
+  .contacts__nav_type_one {
+    width: 65%;
+  }
+
+  .contacts__nav_type_two {
+    width: 65%;
+  }
+
+  .contacts__nav_type_three {
+    width: 65%;
+  }
+}
