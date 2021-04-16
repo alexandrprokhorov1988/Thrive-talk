@@ -1,18 +1,17 @@
 # Верстка по макету Thrive-talk
 
 ### Обзор
-* Описание
-* Инструкция
-* Технологии
+* [Описание](#description)
+* [Инструкция](#instructions)
+* [Технологии](#technologies)
 
-#### Описание
+#### <a name="description">Описание</a>
 * [Ссылка на макет в Figma](https://www.figma.com/file/aHd2rHMrnzDXhowLuIQjIyVQ/ThriveTalk-Landing-Page?node-id=1%3A2)
 
-#### Инструкция
+#### <a name="instructions">Инструкция</a>
 * [Ссылка на проект](https://alexandrprokhorov1988.github.io/Thrive-talk/)
 
-
-#### Технологии
+#### <a name="technologies">Технологии</a>
 * Спецификации HTML, CSS.
 * Страница разработана по методологии компонентного подхода БЭМ. 
 * Адаптивность от 320
